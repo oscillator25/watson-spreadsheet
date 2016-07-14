@@ -8,10 +8,10 @@
   "dependencies": {
     "express": "4.13.x",
     "cfenv": "1.0.x",
-    "watson-developer-cloud": "~1.12.2",
     "google-spreadsheet": "~2.0.3",
     "googleapis": "~11.0.0",
-    "async": "~2.0.0-rc.6"
+    "async": "~2.0.0-rc.6",
+    "watson-developer-cloud": "~1.12.2"
   },
   "repository": {},
   "engines": {

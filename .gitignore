@@ -5,3 +5,4 @@
 /node_modules/
 tone-credentials.json
 google-credentials.json
+/alchemy-credentials.json

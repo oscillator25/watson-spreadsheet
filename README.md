@@ -23,6 +23,7 @@ Run the app locally
 - Input is a spreadsheet with columns for questions + answers and one for each emotional tone ...
 - My example spreadsheet ( John Lennon, Rolling Stone interview ) https://docs.google.com/spreadsheets/d/1UVbnv8KJ5ycYxdl_1LIr7XzFaPGhRqvf5SQRCrBqwpg/pubhtml
 - Create a Watson Tone Analyzer service on Bluemix and obtain credentials for it ( see note below )
+- Add Alchemy Service from Bluemix ( for concepts )
 - Type `node app` to run the app
 
 Note
@@ -61,4 +62,18 @@ It looks something like this:
     "version": "v3"
 }
 ```
+
+And Alchemy credentials file:
+
+```{
+    "name": "alchemy-solid",
+    "label": "alchemy_api",
+    "plan": "free",
+    "credentials": {
+        "url": "https://gateway-a.watsonplatform.net/calls",
+        "note": "It may take up to 5 minutes for this key to become active",
+        "apikey": " a p i   k e y"
+    }
+}```
+
 
