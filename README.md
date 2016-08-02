@@ -6,6 +6,8 @@ This is a Node application that reads questions and answers from a Google Spread
 
 It requires Google API Authentication as outlined in the npm google-spreadsheet documentation, and Watson Tone API Authentication as outlined in the Watson docs.
 
+![Spreadsheet screenshot](./google concept analysis.png)
+
 ##### Why is this useful?
 
 This app was inspired by a real world use case, where a company routinely runs interviews, and wishes to automatically derive insight from them - ideally converting speech to text first. The spreadsheet offers a friendly and efficient visual interface for initial analysis. The company uses Google Docs for a lot of their data.

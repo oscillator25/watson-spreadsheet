@@ -63,7 +63,7 @@ async.series([
                     } else {
 
                         response.concepts.forEach(function (concept) {
-                            concepts = concepts + concept.text + ' ';
+                            concepts = concepts + concept.text + ' - ';
                         });
 
                         row.concepts = concepts;
