@@ -46,8 +46,6 @@ async.series([
             limit: 23
         }, function (err, rows) {
             rows.forEach(function (row) {
-
-
                 // Concepts
                 var parameters = {
                     text: row.answer,

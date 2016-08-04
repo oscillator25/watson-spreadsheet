@@ -4,9 +4,11 @@
 
 This is a Node application that reads questions and answers from a Google Spreadsheet and runs Watson Tone Analysis on the answers. It writes the measured tone into rows of the Spreadsheet.
 
+![Spreadsheet screenshot](./google-watson-concept.png)
+
 It requires Google API Authentication as outlined in the npm google-spreadsheet documentation, and Watson Tone API Authentication as outlined in the Watson docs.
 
-![Spreadsheet screenshot](./google concept analysis.png)
+![Spreadsheet screenshot](./spreadsheet-shot.png)
 
 ##### Why is this useful?
 
